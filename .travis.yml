@@ -14,12 +14,7 @@ cache:
   - $HOME/.m2
 
 env:
-  - DOCKER_IMAGE=apapic0112/dockerc:1.0-SNAPSHOT
+  - DOCKER_IMAGE_MS_DOCKER=ap5327/msdocker:1.0-SNAPSHOT
 
 script:
-  - mvn clean package -U -f ./docker/
-  - docker build -t "$DOCKER_IMAGE" .
-
-after_success:
-  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
-  - docker push "$DOCKER_IMAGE"
+  - ./travis.sh
