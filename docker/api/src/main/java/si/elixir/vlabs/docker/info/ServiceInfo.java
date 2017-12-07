@@ -16,7 +16,6 @@ public class ServiceInfo {
 
     @GET
     public Response info() {
-        // TODO: export files
         return Response.ok(new ProjectDetails()).build();
     }
 }

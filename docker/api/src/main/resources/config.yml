@@ -1,0 +1,6 @@
+
+kumuluzee:
+  logs:
+    loggers:
+      - name: ''
+        level: TRACE
