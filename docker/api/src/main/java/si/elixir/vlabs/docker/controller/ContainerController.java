@@ -2,6 +2,8 @@ package si.elixir.vlabs.docker.controller;
 
 import com.github.dockerjava.api.DockerClient;
 import com.github.dockerjava.core.DefaultDockerClientConfig;
+import com.github.dockerjava.core.DockerClientBuilder;
+import com.github.dockerjava.core.DockerClientConfig;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -14,7 +16,9 @@ public class ContainerController {
 
     @GET
     public Response getContainerStatuses() {
-        //DockerClient dockerClient = DefaultDockerClientConfig.createDefaultConfigBuilder().build();
+        //DockerClientConfig dockerClientconfig = DefaultDockerClientConfig.createDefaultConfigBuilder().build();
+        //DockerClient dockerClient = DockerClientBuilder.getInstance(dockerClientconfig).build();
+        //dockerClient.infoCmd();
         return Response.ok("OK").build();
     }
 
