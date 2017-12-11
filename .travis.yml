@@ -14,7 +14,7 @@ cache:
   - $HOME/.m2
 
 env:
-  - DOCKER_IMAGE_MS_DOCKER=ap5327/msdocker:1.0-SNAPSHOT
+  - DOCKER_IMAGE_MS_DOCKER=ap5327/msdocker:1.0.1
 
 script:
   - ./travis.sh

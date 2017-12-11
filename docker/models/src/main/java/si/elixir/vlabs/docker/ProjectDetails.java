@@ -17,9 +17,7 @@ public class ProjectDetails {
         return clani;
     }
 
-    public List<String> getGithub() {
-        return github;
-    }
+    public List<String> getGithub() { return github; }
 
     public List<String> getTravis() {
         return travis;
@@ -29,10 +27,7 @@ public class ProjectDetails {
         return dockerhub;
     }
 
-    public void setClani(List<String> clani) {
-
-        this.clani = clani;
-    }
+    public void setClani(List<String> clani) { this.clani = clani; }
 
     public void setGithub(List<String> github) {
         this.github = github;

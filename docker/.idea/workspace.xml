@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2407d295-175b-449a-95ea-153aa52c009e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../kubernetes/msdocker-deployment.yml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.travis.yml" afterPath="$PROJECT_DIR$/../.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/api.iml" afterPath="$PROJECT_DIR$/api/api.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/pom.xml" afterPath="$PROJECT_DIR$/api/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/si/elixir/vlabs/docker/controller/ContainerController.java" afterPath="$PROJECT_DIR$/api/src/main/java/si/elixir/vlabs/docker/controller/ContainerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/si/elixir/vlabs/docker/Container.java" afterPath="$PROJECT_DIR$/models/src/main/java/si/elixir/vlabs/docker/Container.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/si/elixir/vlabs/docker/ProjectDetails.java" afterPath="$PROJECT_DIR$/models/src/main/java/si/elixir/vlabs/docker/ProjectDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../kubernetes/msdocker-service.yml" afterPath="$PROJECT_DIR$/../kubernetes/msdocker-service.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../kubernetes/msdocker-controller.yaml" afterPath="$PROJECT_DIR$/../kubernetes/msdocker-controller.yaml" />
     </list>
     <ignored path="$PROJECT_DIR$/models/target/" />
     <ignored path="$PROJECT_DIR$/services/target/" />
@@ -23,21 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProjectDetails.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/src/main/java/si/elixir/vlabs/docker/ProjectDetails.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="116" lean-forward="false" selection-start-line="10" selection-start-column="116" selection-end-line="10" selection-end-column="116" />
-              <folding>
-                <element signature="e#950#951#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -399,7 +382,7 @@
       <workItem from="1511421013669" duration="597000" />
       <workItem from="1511421886537" duration="3304000" />
       <workItem from="1512628420339" duration="4974000" />
-      <workItem from="1512850021778" duration="4989000" />
+      <workItem from="1512850021778" duration="5250000" />
     </task>
     <task id="LOCAL-00001" summary="Changing pom.xml settings">
       <created>1512850287847</created>
@@ -419,11 +402,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27150000" />
+    <option name="totallyTimeSpent" value="27411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="36" width="1260" height="738" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -436,7 +418,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281493" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25862068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25862068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -753,12 +735,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/si/elixir/vlabs/docker/ProjectDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="116" lean-forward="false" selection-start-line="10" selection-start-column="116" selection-end-line="10" selection-end-column="116" />
-          <folding>
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
