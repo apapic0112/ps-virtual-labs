@@ -1,0 +1,18 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: msdocker-deployment
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: msdocker
+    spec:
+      containers:
+      - image: ap5327/msdocker:1.0-SNAPSHOT
+        name: msdocker
+        ports:
+        - containerPort: 8080
+          name: server
+          protocol: TCP
