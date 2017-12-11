@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2407d295-175b-449a-95ea-153aa52c009e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kubernetes/msdocker-deployment.yml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.travis.yml" afterPath="$PROJECT_DIR$/../.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/src/main/java/si/elixir/vlabs/docker/ProjectDetails.java" afterPath="$PROJECT_DIR$/models/src/main/java/si/elixir/vlabs/docker/ProjectDetails.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../kubernetes/msdocker-controller.yaml" afterPath="$PROJECT_DIR$/../kubernetes/msdocker-controller.yaml" />
     </list>
     <ignored path="$PROJECT_DIR$/models/target/" />
     <ignored path="$PROJECT_DIR$/services/target/" />
@@ -382,7 +378,7 @@
       <workItem from="1511421013669" duration="597000" />
       <workItem from="1511421886537" duration="3304000" />
       <workItem from="1512628420339" duration="4974000" />
-      <workItem from="1512850021778" duration="5250000" />
+      <workItem from="1512850021778" duration="5729000" />
     </task>
     <task id="LOCAL-00001" summary="Changing pom.xml settings">
       <created>1512850287847</created>
@@ -402,7 +398,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27411000" />
+    <option name="totallyTimeSpent" value="27890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="36" width="1260" height="738" extended-state="0" />
@@ -458,7 +454,7 @@
         <state relative-caret-position="300">
           <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -484,7 +480,7 @@
         <state relative-caret-position="180">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -513,7 +509,7 @@
         <state relative-caret-position="180">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -547,7 +543,7 @@
         <state relative-caret-position="180">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -700,16 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/src/main/java/si/elixir/vlabs/docker/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-          <folding>
-            <element signature="method#setStatus#0;class#Container#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/si/elixir/vlabs/docker/helper/DockerHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -728,15 +714,25 @@
         <state relative-caret-position="203">
           <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/src/main/java/si/elixir/vlabs/docker/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="method#setStatus#0;class#Container#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/src/main/java/si/elixir/vlabs/docker/ProjectDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="555">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
         </state>
       </provider>
