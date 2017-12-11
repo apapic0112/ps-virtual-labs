@@ -4,6 +4,8 @@ import com.github.dockerjava.api.DockerClient;
 import com.github.dockerjava.core.DefaultDockerClientConfig;
 import com.github.dockerjava.core.DockerClientBuilder;
 import com.github.dockerjava.core.DockerClientConfig;
+import si.elixir.vlabs.docker.Container;
+import si.elixir.vlabs.docker.helper.DockerHelper;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -19,13 +21,13 @@ public class ContainerController {
         //DockerClientConfig dockerClientconfig = DefaultDockerClientConfig.createDefaultConfigBuilder().build();
         //DockerClient dockerClient = DockerClientBuilder.getInstance(dockerClientconfig).build();
         //dockerClient.infoCmd();
-        return Response.ok("OK").build();
+        return Response.ok(DockerHelper.getActive()).build();
     }
 
     @GET
     @Path("/{id}")
     public Response getContainerStatus(@PathParam("id") Integer id) {
-        return Response.ok(id.toString()).build();
+        return Response.ok(DockerHelper.getById(id)).build();
     }
 
     @POST

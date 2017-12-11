@@ -18,12 +18,22 @@ public class Container {
     private String image_name;
     private String status;
 
-    public Container() {
-        /*setCid(container.getId());
-        setName(container.getNames());
-        setCreated(container.getCreated());
-        setImage(container.getImage());
-        setStatus(container.getStatus());*/
+    public Container(Integer id, String cid, String name, long created, String image, String status) {
+        setId(id);
+        setCid(cid);
+        setName(name);
+        setCreated(created);
+        setImage(image);
+        setStatus(status);
+    }
+
+    public Container(Container c) {
+        setId(c.getId());
+        setCid(c.getCid());
+        setName(c.getName());
+        setCreated(c.getCreated());
+        setImage(c.getImage());
+        setStatus(c.getStatus());
     }
 
     public Integer getId() {

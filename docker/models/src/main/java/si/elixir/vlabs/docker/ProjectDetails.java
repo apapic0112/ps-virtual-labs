@@ -8,7 +8,7 @@ public class ProjectDetails {
 
     private List<String> clani = new ArrayList<String>(Arrays.asList("ap5327"));
     private String opis_projekta = "V projektu sem si zadal izgradnjo storitev, ki omogocajo dinamicno zaganjanje in nadzor virtualnih laboratorijev.";
-    private List<String> mikrostoritve = new ArrayList<String>(); // TODO
+    private List<String> mikrostoritve = new ArrayList<String>(Arrays.asList("http://35.198.126.179/v1/container"));
     private List<String> github = new ArrayList<String>(Arrays.asList("https://github.com/apapic0112/ps-virtual-labs"));
     private List<String> travis = new ArrayList<String>(Arrays.asList("https://travis-ci.org/apapic0112/ps-virtual-labs"));
     private List<String> dockerhub = new ArrayList<String>(Arrays.asList("https://hub.docker.com/u/ap5327/"));
