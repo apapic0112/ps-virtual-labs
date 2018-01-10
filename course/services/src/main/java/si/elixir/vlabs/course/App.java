@@ -1,4 +1,4 @@
-package si.elixir.vlabs.users;
+package si.elixir.vlabs.course;
 
 /**
  * Hello world!
