@@ -15,7 +15,7 @@ cache:
 
 env:
   - DOCKER_IMAGE_MS_DOCKER=ap5327/msdocker:1.0.1
-  - DOCKER_IMAGE_MS_USERS==ap5327/msdocker:1.0.0
+  - DOCKER_IMAGE_MS_USERS==ap5327/msusers:1.0.0
 
 script:
   - ./travis.sh
