@@ -4,6 +4,7 @@ import com.github.dockerjava.api.DockerClient;
 import com.github.dockerjava.core.DefaultDockerClientConfig;
 import com.github.dockerjava.core.DockerClientBuilder;
 import com.github.dockerjava.core.DockerClientConfig;
+import com.kumuluz.ee.logs.cdi.Log;
 import si.elixir.vlabs.docker.Container;
 import si.elixir.vlabs.docker.helper.DockerHelper;
 
@@ -11,6 +12,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
+@Log
 @Path("/container")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
@@ -26,7 +28,7 @@ public class ContainerController {
 
     @GET
     @Path("/{id}")
-    public Response getContainerStatus(@PathParam("id") Integer id) {
+    public Response getContainerStatus(@PathParam("id") int id) {
         return Response.ok(DockerHelper.getById(id)).build();
     }
 

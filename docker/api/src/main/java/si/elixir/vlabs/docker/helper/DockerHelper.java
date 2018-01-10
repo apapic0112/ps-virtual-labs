@@ -5,11 +5,9 @@ import si.elixir.vlabs.docker.Container;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class DockerHelper {
 
-    // TODO: Read from database
     private static List<Container> active = new ArrayList<Container>(Arrays.asList(
             new Container(1132, "029d0c2f4fff", "course-unix-linux-cmd-ff31ac", 1513017335, "UnixLinuxCMD", "Running"),
             new Container(1135, "66636c3eec00", "course-unix-linux-cmd-ff59dd", 1513017449, "UnixLinuxCMD", "Running"),
@@ -22,11 +20,14 @@ public class DockerHelper {
         return active;
     }
 
-    // TODO: Filter not working
-    public static List<Container> getById(Integer id) {
-        List<Container> tmp = active.stream()
-                .filter(c -> c.getId() == id)
-                .collect(Collectors.toCollection(ArrayList::new));
-        return tmp;
+    public static List<Container> getById(int id) {
+        List<Container> result = new ArrayList<>();
+        for(Container c : active) {
+            if (c.getId() == id) {
+                result.add(c);
+                break;
+            }
+        }
+        return result;
     }
 }
